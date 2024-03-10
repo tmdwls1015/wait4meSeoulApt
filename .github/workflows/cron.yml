@@ -3,7 +3,7 @@ on:
   schedule:
     # 매 주 일요일 오후 5시, Github Actions 에서는 UTC 기준으로 실행됨
     # https://elmah.io/tools/cron-parser/
-    - cron: '0 8 * * 0'
+    - cron: '10 8 * * 0'
 jobs:
   run-actions:
     runs-on: ubuntu-latest
