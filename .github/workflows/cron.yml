@@ -1,9 +1,9 @@
 name: Lotto purchase (cron)
 on:
   schedule:
-    # 매 주 일요일 오후 5시, Github Actions 에서는 UTC 기준으로 실행됨
+    # 매 주 일요일 오후 5시 30분, Github Actions 에서는 UTC 기준으로 실행됨
     # https://elmah.io/tools/cron-parser/
-    - cron: '10 8 * * 0'
+    - cron: '30 8 * * 7'
 jobs:
   run-actions:
     runs-on: ubuntu-latest
